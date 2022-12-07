@@ -1,10 +1,10 @@
 import "./App.css";
-import Day from "./components/Day";
+import WeekView from "./view/WeekView";
 
 function App() {
   return (
     <div className="App">
-      <Day date={new Date()} />
+      <WeekView />
     </div>
   );
 }
